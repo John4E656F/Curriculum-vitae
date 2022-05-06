@@ -1,3 +1,4 @@
+/* Header */
 header {
  display: grid;
  grid-template-columns: 20% auto auto;
@@ -21,12 +22,14 @@ img{
 }
 
 .name{
-    background-color: blueviolet;
+
+    /* background-color: blueviolet; */
     padding-left: 10px;
     margin-left: -50px;
+    padding-top: 5%;
 }
 .contact {
-    background-color: bisque;
+    /* background-color: bisque; */
     text-align: right;
     padding: 5%;
 }
@@ -35,8 +38,31 @@ img{
 
 }
 .Info{
-    background-color: aqua;
+    /* background-color: aqua; */
     grid-column-start: 1;
     grid-column-end: -1;
     text-align: center;
+}
+
+/* Main */
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(auto);
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-column-gap: 10%;
+}
+
+p{
+    line-height: 1.5;
+}
+ul{
+    /* list-style: none; */
+}
+.Proexp{
+    grid-column-start: 1;
+
 }
